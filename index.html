@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Carros</title>
+  <style>
+    /* Estilo general para el cuerpo de la página */
+    body {
+      font-family: Arial, sans-serif; /* Fuente principal */
+      margin: 0; /* Quita márgenes externos */
+      padding: 0; /* Quita relleno interno */
+      background-color: rgb(204, 195, 195); /* Color de fondo gris claro */
+    }
+
+    /* Encabezado de la página */
+    header {
+      background-color: #6d7783; /* Fondo gris oscuro */
+      color: #252424; /* Texto de color gris oscuro */
+      padding: 20px; /* Espaciado interno */
+      text-align: center; /* Centra el texto */
+    }
+
+    /* Estilos para la barra de navegación */
+    nav ul {
+      list-style-type: none; /* Quita los puntos de la lista */
+      margin: 0; /* Quita márgenes externos */
+      padding: 0; /* Quita relleno interno */
+      display: flex; /* Alinea los elementos horizontalmente */
+      justify-content: center; /* Centra los elementos dentro del contenedor */
+    }
+
+    /* Espaciado entre elementos de la lista */
+    nav li {
+      margin: 0 10px; /* Espaciado horizontal */
+    }
+
+    /* Estilo para los enlaces de navegación */
+    nav a {
+      color: lightgray; /* Color gris claro para el texto */
+      text-decoration: none; /* Quita el subrayado de los enlaces */
+    }
+
+    /* Sección principal de modelos de carros */
+    .car-section {
+      padding: 40px; /* Espaciado interno */
+      text-align: center; /* Centra el contenido */
+    }
+
+    /* Estilo para las imágenes de los carros */
+    .car-section img {
+      max-width: 100%; /* Asegura que las imágenes no superen el ancho del contenedor */
+      height: auto; /* Mantiene la proporción de las imágenes */
+    }
+
+    /* Espaciado superior para los títulos de los carros */
+    .car-section h3 {
+      margin-top: 20px; /* Espaciado superior */
+    }
+
+    /* Estilo para el pie de página */
+    footer {
+      background-color: #333; /* Fondo negro */
+      color: #fff; /* Texto blanco */
+      padding: 10px; /* Espaciado interno */
+      text-align: center; /* Centra el texto */
+    }
+  </style>
+</head>
+<body>
+  <!-- Encabezado principal -->
+  <header>
+    <h1>Concesionario de los mejores autos</h1>
+    <!-- Barra de navegación -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="modelo.htm">Modelos</a></li>
+        <li><a href="servicio.html">Servicio</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+  <!-- sirve para mostar solo el comntenido de carros  -->
+    <section class="car-section"> 
+      
+      <h2>Nuestros Modelos</h2>
+      <div>
+        <img src="images/toyota-corrolla-2010 (1).jpg" alt="Sedan"width="300">
+        <h3>Sedan</h3>
+        <p>Nuestros sedanes ofrecen un manejo ágil y una conducción cómoda.</p>
+      </div>
+
+      <div>
+        <img src="images/jeep-cheroque.jpeg" alt="SUV">
+        <h3>SUV</h3>
+        <p>Los SUV de nuestra línea son espaciosos y perfectos para familias.</p>
+      </div>
+
+      <div>
+        <img src="images/nissan-gtr.webp" alt="Deportivo" width="300,">>
+        <h3>Deportivo</h3>
+        <p>Nuestros autos deportivos ofrecen una experiencia de conducción emocionante.</p>
+      </div>
+    </section>
+
+    <section class="car-section">
+      <h2>¿Necesitas Servicio?</h2>
+      <p>Visita nuestro taller para revisiones, reparaciones y mantenimiento.</p>
+      
+    </section>
+  </main>
+</body>
+</html>
